@@ -1,0 +1,58 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="row login-m">
+	{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+	<div class="col-md-4">
+		{% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show alert-position" role="alert">
+           {{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+		{% endfor %}
+	</div>
+	{% endif %}
+    {% endwith %}
+  <div class="col-md-4 form-position">
+	<div class="line"></div>
+    <main class="form-signin w-100 m-auto">
+      <form role="form" method="post" action="">
+        {{ form.csrf_token }}
+		
+		
+        <div class="mt-5 form-floating">
+          {{ form.username(placeholder="username", class="form-control mb-2") }}
+          {{ form.username.label }}
+            {% if form.username.errors %}
+              {% for error in form.username.errors %}
+              <div class="alert alert-danger" role="alert">
+                {{ error }}
+              </div>
+              {% endfor %}
+            {% endif %}
+        </div>
+        <div class="form-floating">
+          {{ form.password(placeholder="password", class="form-control mb-2") }}
+          {{ form.password.label }}
+            {% if form.password.errors %}
+              {% for error in form.password.errors %}
+                <div class="alert alert-danger" role="alert">
+                  {{ error }}
+                </div>
+              {% endfor %}
+            {% endif %}
+        </div>
+        <button class="w-100 btn btn-lg btn-primary btn-signin" type="submit">Sign in</button>
+      </form>
+    </main>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+<br>
+<br>
+<div class="footer" id="footer">
+  <b>©2024 Santavision Elventech Co., Ltd. Snow Rights Reserved.<br>(<i>'sitestatus'</i> available.)</b>
+</div> <!-- elfanon:elfanon -->
+{% endblock %}

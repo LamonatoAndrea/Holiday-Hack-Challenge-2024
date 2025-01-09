@@ -1,0 +1,220 @@
+.error {
+	color: red;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'ds-digi';
+	src: url('/static/DS-DIGI.TTF');
+}
+
+h2 {
+	color: white;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-logout {
+	color: #FFF;
+	background-color: #6DB7C6;
+	border-color: #6DB7C6;
+	position: absolute;
+	z-index: 1;
+	top: 32px;
+	right: 5px;
+	max-width: 100%;
+	height: auto;
+	width: 8vw;
+	min-width: 8vw;
+
+}
+
+.imgboxcontainer {
+	height: 950px;
+	width: 800px;
+}
+
+.center-fit {
+	max-width: 100vw;
+	max-height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	cursor: none;
+}
+
+img#sbnBackground {
+	position: absolute;
+	top: 32px;
+	left: 0;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+img#logo {
+	position: absolute;
+	top: 32px;
+	left: 10px;
+	max-width: 100%;
+	height: auto;
+	width: 25vw;
+}
+
+.container .row .line {
+	border-top: 2px solid #6DB7C6;
+	border-radius: 5px;
+}
+
+.footer {
+	text-align: center;
+	color: #000000;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.container .row .form-position {
+	position: absolute;
+	top: 35%;
+	left: 65%;
+	transform: scale(0.9);
+}
+
+.container .login-m .alert-position {
+	top: 25%;
+	left: 64.5%;
+	width: 34%;
+	color: #FFF;
+	background-color: #6DB7C6;
+	border-color: #6DB7C6;
+	position: absolute;
+	transform: scale(0.8);
+}
+
+.container .login-m .form-position .form-signin .btn-signin {
+	background-color: #6DB7C6;
+	border-color: #6DB7C6;
+}
+
+.brokerfeedscontainer {
+	height: 800px;
+	width: 100vw;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+	top: -1vw;
+	max-width: 1100px;
+	left: 5vw;
+}
+
+.feedsframe {
+	border: 0;
+	--width: 100vw;
+	position: absolute;
+	--height: 100vh;
+	--scale: 0.9;
+	width: var(--width);
+	height: var(--height);
+	margin-top: 8%;
+}
+
+.monitors {
+	width: 675px;
+	height: 675px;
+	position: absolute;
+	background: url(../images/monitors.png) center center no-repeat;
+}
+
+.monitors .monitor1 {
+	width: 281px;
+	height: 263px;
+	position: relative;
+	background-color: #000;
+	top: 44px;
+	left: 50px;
+}
+
+.monitors .imgM {
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+}
+
+.monitors .monitor2 {
+	width: 290px;
+	height: 263px;
+	position: absolute;
+	background-color: #000;
+	top: 44px;
+	left: 372px;
+}
+
+.monitors .monitor3 {
+	width: 281px;
+	height: 255px;
+	position: absolute;
+	background-color: #000;
+	top: 345px;
+	left: 50px;
+}
+
+.monitors .monitor4 {
+	width: 290px;
+	height: 255px;
+	position: absolute;
+	background-color: #000;
+	top: 345px;
+	left: 372px;
+}
+
+.status {
+	background-color: #6DB7C6;
+	font-size: 4;
+	font-weight: bold;
+	color: white;
+	line-height: 140%;
+	position: relative;
+	left: 700px;
+	top: -24px;
+	width: 365px;
+}
+
+.messages {
+	color: white;
+	background-color: #6DB7C6;
+	font-size: 3;
+	font-weight: bold;
+	line-height: 140%;
+}
+
+.mqttconnect {
+	position: relative;
+	left: 700px;
+	width: 365px;
+	top: -40px;
+	color: white;
+	font-weight: bold;
+
+}

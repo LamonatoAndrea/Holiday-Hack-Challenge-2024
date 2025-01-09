@@ -1,0 +1,1 @@
+jffs2-root/app/src/accounts/views.py
