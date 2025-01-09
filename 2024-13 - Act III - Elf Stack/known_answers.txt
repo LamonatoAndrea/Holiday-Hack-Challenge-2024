@@ -1,0 +1,24 @@
+1
+5
+SnowGlowMailPxy
+kriskring1e@northpole.local
+SleighRider
+172.24.25.12
+10014
+8443
+ddpvccdbr
+C:\Users\elf_user02\Desktop\kkringl315@10.12.25.24.pem
+kringleSSleigH
+ssdh
+/usr/sbin/usermod -a -G sudo ssdh
+2024-09-16T11:10:12-04:00
+KringleGuard
+nutcrakr
+WishLists
+fR0s3nF1@k3_s
+2024-09-16T15:35:57.000Z
+C:\WishLists\santadms_only\its_my_fakelst.txt
+4
+22
+rud01ph.glow
+c0m3t.halleys
