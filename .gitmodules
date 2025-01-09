@@ -1,0 +1,9 @@
+[submodule "2024-07 - Act II - Mobile Analysis/Gold/frida"]
+	path = 2024-07 - Act II - Mobile Analysis/Gold/frida
+	url = https://github.com/frida/frida
+[submodule "2024-07 - Act II - Mobile Analysis/Gold/RMS-Runtime-Mobile-Security"]
+	path = 2024-07 - Act II - Mobile Analysis/Gold/RMS-Runtime-Mobile-Security
+	url = https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security
+[submodule "2024-07 - Act II - Mobile Analysis/Gold/rootAVD"]
+	path = 2024-07 - Act II - Mobile Analysis/Gold/rootAVD
+	url = https://gitlab.com/newbit/rootAVD
